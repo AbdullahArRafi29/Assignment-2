@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    background-color: black;
+}
+
+.display_flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.text_Inter{
+    font-family: Inter;
+}
+
+.nav-list button{
+    border: none;
+    background: none;
+}
+.nav-list ul{
+    gap: 3rem;
+}
+.header-description{
+    width: 50%;
+}
+.header-img{
+    width: 50%;
+}
+
+/* habit styles */
+.habits{
+    align-items: center;
+    align-self: center;
+}
+.habit-img{
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-img img{
+    border-radius: 50%;
+}
+
+/* run style */
+.run{
+    grid-template-columns: repeat(2, 1fr );
+}
+.run-img-container{
+    width: 366px;
+    height: 312px;
+    background-image: url(../images/run.jpg);
+    background-position: center;
+}
+
+/* team styles */
+.team{
+    margin: 0 auto;
+    /* align-items: center;
+    justify-items: center; */
+    text-align: center;
+    
+    color: white;
+    
+}
+.team-img-container{
+    grid-template-columns: repeat(3, 1fr);
+    width: 1060px;
+    height: 604px;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.team-img img{
+    width: 326.67px;
+    height: 272px;
+}
+
+/* footer styles */
+footer{
+    color: white;
+    width: 1440px;
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-items: center;
+    margin-top: 10rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
